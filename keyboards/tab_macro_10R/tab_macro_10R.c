@@ -1,4 +1,5 @@
 #include "tab_macro_10R.h"
+#include "keymap_french.h"
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
   /* With an if statement we can check which encoder was turned. */
@@ -9,10 +10,10 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
          Page Down key. You can do anything QMK allows you to do here.
          You'll want to replace these lines with the things you want your
          encoders to do. */
-      tap_code(KC_LEFT);
+      tap_code16(KC_LEFT);
     } else {
       /* And likewise for the other direction, this time Page Down is pressed. */
-      tap_code(KC_RIGHT);
+      tap_code16(KC_RIGHT);
     }
   /* You can copy the code and change the index for every encoder you have. Most
      keyboards will only have two, so this piece of code will suffice. */

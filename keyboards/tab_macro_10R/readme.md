@@ -8,7 +8,7 @@ tab-macro-10R
 * Hardware Supported: *Arduino pro micro*
 * Hardware Availability: Nothing fancy here
 
-Make example for this keyboard (after setting up your build environment):
+Make example for this keyboard (after setting up your build env'ironment):
 
     make tab-macro-10R:default
 
